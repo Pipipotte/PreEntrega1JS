@@ -81,6 +81,7 @@ function seguirComprando(carrito){
     }
 }
 
+
 function descuentoPreg(carrito,compra){
     if (prompt(`Está por adquirir el servicio ${compra}, ingrese código de descuento, de no disponer de uno deje en blanco (cod: 1234)`) == 1234){
         carrito = descuento(carrito,descuentoNum);
@@ -91,7 +92,6 @@ function descuentoPreg(carrito,compra){
         console.log(`No se aplicó el descuento, total a pagar: $${carrito}`);
     }
 }
-
 
 compraItem(carrito);
 
