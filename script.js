@@ -86,6 +86,9 @@ function descuentoPreg(carrito,compra){
         carrito = descuento(carrito,descuentoNum);
         alert(`Descuento aplicado, total a pagar: $${carrito}`);
         console.log(`Descuento aplicado, total a pagar: $${carrito}`);
+    } else {
+        alert(`Total a pagar: $${carrito}`);
+        console.log(`No se aplicó el descuento, total a pagar: $${carrito}`);
     }
 }
 
