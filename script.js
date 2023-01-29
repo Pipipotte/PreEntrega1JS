@@ -43,6 +43,7 @@ function compraItem(){
                 carrito = frontendItem(carrito);
                 console.log("Total a pagar: $",carrito);
                 descuentoPreg(carrito,compra);
+                seguirComprando(carrito);
                 return carrito;
             }
             break;
@@ -52,6 +53,7 @@ function compraItem(){
                 carrito = uxuiItem(carrito);
                 console.log("Total a pagar: $",carrito);
                 descuentoPreg(carrito,compra)
+                seguirComprando(carrito);
                 return carrito
             }
             break
@@ -61,6 +63,7 @@ function compraItem(){
                 carrito = uxuiItem(carrito);
                 console.log("Total a pagar: $",carrito);
                 descuentoPreg(carrito,compra)
+                seguirComprando(carrito);
                 return carrito
             }
             break;
